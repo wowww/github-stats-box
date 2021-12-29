@@ -14,9 +14,7 @@ jobs:
                   node-version: 12
             - run: npx github-stats-box
               env:
-                  GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
-
-                  # Edit the following environment variables
+                  GH_TOKEN: 9902fe7af76ad2ca43f3a3d0ec1ecabc
                   GIST_ID: 9902fe7af76ad2ca43f3a3d0ec1ecabc
                   ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
                   K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
