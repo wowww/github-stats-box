@@ -14,7 +14,7 @@ jobs:
                   node-version: 12
             - run: npx github-stats-box
               env:
-                  GH_TOKEN: 9902fe7af76ad2ca43f3a3d0ec1ecabc
+                  GH_TOKEN: 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
                   GIST_ID: 9902fe7af76ad2ca43f3a3d0ec1ecabc
                   ALL_COMMITS: true # If `true` it will count all commits, if `false` it will count your last year commits
                   K_FORMAT: false # If `true`, large numbers will be formatted with a "k", for example "1.5k"
